@@ -20,7 +20,7 @@ $ go install github.com/cloverrose/mockguard/cmd/mockguard@latest
 ### Or Build from source
 
 ```shell
-$ go build -o bin/ ./cmd/...
+$ make build/mockguard
 ```
 
 ### Or Install via aqua
@@ -51,11 +51,11 @@ Here are reference settings
 `.custom-gcl.yml`
 
 ```yaml
-version: v1.62.0
+version: v1.64.8
 plugins:
   - module: 'github.com/cloverrose/mockguard'
     import: 'github.com/cloverrose/mockguard'
-    version: v0.1.0
+    version: v0.1.1
 ```
 
 `.golangci.yml`

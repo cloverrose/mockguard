@@ -1,9 +1,8 @@
 package mockguard
 
 import (
-	"golang.org/x/tools/go/analysis"
-
 	"github.com/golangci/plugin-module-register/register"
+	"golang.org/x/tools/go/analysis"
 )
 
 func init() {
