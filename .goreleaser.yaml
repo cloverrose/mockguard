@@ -4,7 +4,7 @@ before:
     - go mod tidy
 builds:
   - id: mockguard
-    main: ./cmd/mockguard/
+    main: ./cmd/mockguard
     binary: mockguard
     env:
       - CGO_ENABLED=0
