@@ -51,11 +51,11 @@ Here are reference settings
 `.custom-gcl.yml`
 
 ```yaml
-version: v1.64.8
+version: v2.3.1
 plugins:
   - module: 'github.com/cloverrose/mockguard'
     import: 'github.com/cloverrose/mockguard'
-    version: v0.1.1
+    version: v0.1.3
 ```
 
 `.golangci.yml`

@@ -60,7 +60,7 @@ tidy:
 # tidy updates go dependencies.
 .PHONY: go/update
 go/update:
-	go get -u all
+	go get -u ./...
 	go mod tidy -v
 
 # test runs the tests.
